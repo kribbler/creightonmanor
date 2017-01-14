@@ -1,0 +1,45 @@
+#thumbBox{ /*Outermost DIV for thumbnail viewer*/
+position: absolute;
+left: 0;
+top: 0;
+width: auto;
+padding: 10px;
+padding-bottom: 0;
+background: #FAFAF5;
+visibility: hidden;
+z-index: 10;
+cursor: hand;
+cursor: pointer;
+border: 1px solid #EBEAD6;
+}
+
+#thumbBox .footerbar{
+	font: bold 16px/1.1em Verdana, Helvetica, Arial;
+	color: #565237;
+	padding: 5px 0;
+	text-align: right;
+	letter-spacing: 2px;
+}
+
+#thumbBox #thumbImage{ /*DIV within thumbbox that holds the enlarged image */
+background-color: #FAFAF5;
+}
+
+#thumbLoading{ /*DIV for showing "loading" status while thumbbox is being generated*/
+position: absolute;
+visibility: hidden;
+border: 1px solid black;
+background-color: #EFEFEF;
+padding: 5px;
+z-index: 5;
+}
+.caption {
+	font-family: Verdana, Helvetica, Arial;
+	font-size: 11px;
+	color: #565237;
+	text-transform: lowercase;
+	text-align: center;
+	letter-spacing: 2px;
+	line-height: 1.1em;
+	padding: 5px 0;
+}

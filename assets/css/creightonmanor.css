@@ -1,0 +1,156 @@
+body {
+	background-image: url(../images/page_bgd.jpg);
+	margin: 0px;
+}
+#container {
+	background-image: url(../images/table_bgd.gif);
+	background-repeat: repeat-y;
+	background-position: center top;
+}
+#top_bgd {
+	background-image: url(../images/colours_04.jpg);
+	background-repeat: repeat-x;
+	height: 105px;
+	width: 100%;
+	text-align: center;
+}
+#title {
+	height: 67px;
+	width: 755px;
+	text-align: right;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../images/title.gif);
+	background-repeat: no-repeat;
+	font-weight: normal;
+	color: #A5A08A;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#links {
+	background-image: url(../images/title_sub.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 755px;
+	height: 38px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 36px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #565237;
+	word-spacing: 10px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+#links a {
+	color: #565237;
+	text-decoration: none;
+	word-spacing: normal;
+}
+#links a:hover {
+	text-decoration: underline;
+}
+#photos {
+	background-image: url(../images/photo_gallery.gif);
+	background-repeat: no-repeat;
+	width: 282px;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 175px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #565237;
+	line-height: 18px;
+}
+#content {
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #565237;
+	line-height: 18px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	background-image: url(../images/watermark.jpg);
+	padding-top: 15px;
+}
+.frame {
+	background-color: #F9F9F2;
+	border: 1px solid #E8E7CA;
+}
+
+#highlights {
+	background-color: #F7F5E0;
+	padding: 5px 10px;
+	border: 1px solid #F2EFCC;
+	margin-left: 15px;
+}
+#highlights li {
+	margin-left: -25px;
+}
+#photos li {
+	text-align: left;
+	margin-right: 20px;
+}
+#testimonials {
+	margin-top: 7px;
+	margin-right: 26px;
+	margin-left: 24px;
+	padding: 5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #565237;
+	font-style: italic;
+}
+
+.gift-certificates { margin: 0 20px 0 30px; }
+.fadein,
+.fadein-sidebar,
+.fadein-captain,
+.fadein-ogden,
+.fadein-tower,
+.fadein-green-gables
+{
+	border: 1px solid #e8e7ca;
+	padding: 0;
+	position: relative;
+	height: 171px;
+	width: 223px;
+	margin-left: 28px;
+	background-color: #f9f9f2;
+}
+
+.frame .fadein,
+.frame .fadein-sidebar,
+.frame .fadein-captain,
+.frame .fadein-ogden,
+.frame .fadein-tower,
+.frame .fadein-green-gables
+{
+	margin: 20px;
+	border: none;
+}
+
+.fadein img.element,
+.fadein-sidebar img.element,
+.fadein-captain img.element,
+.fadein-ogden img.element,
+.fadein-tower img.element,
+.fadein-green-gables img.element
+{
+	display: none;
+	z-index: 0;
+	margin: 3px;
+}
+.fadein img.element.first,
+.fadein-sidebar img.element.first,
+.fadein-captain img.element.first,
+.fadein-ogden img.element.first,
+.fadein-tower img.element.first,
+.fadein-green-gables img.element.first
+{
+	display: block;
+}
